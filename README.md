@@ -1,2 +1,3 @@
-# WebPage
-WebPage - HTML/ CSS/ JS
+# WebPage - HTML/ CSS/ JS
+
+Free WebPage Template on development for companys to use.

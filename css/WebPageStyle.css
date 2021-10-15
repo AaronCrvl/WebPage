@@ -13,48 +13,12 @@ html
     background: #181818;
 }
 
-#LoadMessage
-{        
-    width: 200px;
-    height: 200px;    
-}
-
-#LoadMessage .show
-{
-    visibility: visible;
-    -webkit-animation: fadeIn 1s;
-    animation: fadeIn 1s
-}
-
-#LoadMessage .popuptext {
-    visibility: hidden;
-    width: 160px;
-    background-color: #555;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 8px 0;
-    position: absolute;
-    z-index: 1;
-    bottom: 125%;
-    left: 50%;
-    margin-left: -80px;
-  }
-
-@-webkit-keyframes fadeIn {
-    from {opacity: 0;} 
-    to {opacity: 1;}
-}
-  
-  @keyframes fadeIn {
-    from {opacity: 0;}
-    to {opacity:1 ;}
-}
-
 a
 {
     color: white;
     text-decoration: none;    
+    border-collapse: collapse;
+    z-index: -1;
 }
 
 .EditableLink
@@ -65,7 +29,7 @@ a
     font-size: 30px;
 }
 
-/*NavigationBar*/
+/*#region NavigationBar*/
 
 #BarraNavegacao
 {  
@@ -99,9 +63,9 @@ a
 }
 
 
-/*NavigationBar*/
+/*#endregion NavigationBar*/
 
-/*Body*/
+/*#region Body*/
 #GrupoTexto
 {
  color: white;   
@@ -121,12 +85,36 @@ h2
     font-size: 50px;    
 }
 
-.UCBody
+.UCBody_1
 {          
     padding-left: 850px;        
     display: inline-table;
     width: 500px;
-    height: 100px;
+    height: 10px;    
+}
+
+.UCBody_2
+{          
+    padding-left: 850px;        
+    display: inline-table;
+    width: 500px;
+    height: 10px;
+}
+
+.UCBody_3
+{          
+    padding-left: 850px;        
+    display: inline-table;
+    width: 500px;
+    height: 10px;
+}
+
+.bbtnShowText
+{    
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative; 
+    color: white;
+    background: #181818;
 }
 
 #TabelaCorpo
@@ -144,9 +132,9 @@ h2
     font-size: 45px;    
 }
 
-/*Body*/
+/*#endregion Body*/
 
-/*Footer*/
+/*#region Footer*/
 #LogoFooter
 {
     width: 40px;
@@ -184,4 +172,4 @@ h2
     font-size: 10px;
 }
 
-/*Footer*/
+/*#endregion Footer*/

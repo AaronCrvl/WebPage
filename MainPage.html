@@ -3,19 +3,16 @@
     <head>
         <title>Demonstration Page</title>
         <link rel="stylesheet" href="css/WebPageStyle.css"> 
-        <link rel="stylesheet" href="css/UserInteraction/WebPageUI.css">
-        <script src="js/WebPageJs.js"></script>
+        <link rel="stylesheet" href="css/UserInteraction/WebPageUI.css">        
     </head>
-    <body>   
+    <body id="body">   
         <div>
             <nav id="BarraNavegacao">
                 <img id="Logo" src="images/logo.png" alt="Logo">
                 <table id="CompanyName">
                     <tr>
-                        <th><label id="TituloLogo">Company</label></th>                        
-                    </tr>                    
-                    <tr>
-                        <th><label id="TituloLogo">Name</label></th>
+                        <th><label id="TituloLogo">WebPage</label></th>                          
+                        <th><label id="TituloLogo">V1</label></th>                      
                     </tr>
                 </table>                            
                 <table id="TabelaLinks">
@@ -29,7 +26,7 @@
         <div id="GrupoTexto">             
             <table id="TabelaCorpo">  
                 <th>
-                    <td id="TTLinks">Some of my projects</td>
+                    <td id="TTLinks" onmouseover="AcessOnGit()">Some of my projects</td>
                 </th>        
                 <tr>
                     <tr>
@@ -57,50 +54,23 @@
                 </tr>
                                           
             </table>                                      
-            <h1>System Development</h1>
-            <p class="UCBody"> 
-                The process of creating and maintaining information systems is 
-                called systems development or systems analysis and design. This diagram shows 
-                that it involves all five components of an information system. In addition to 
-                technical knowledge, it requires business knowledge and management skill.
-            </p>
-            <h2>Programing Languages</h2>
-            <p class="UCBody">
-                Programming languages can be added to several different sections in your 
-                resume, but the most popular one is your skills section. Here’s how to add 
-                programming languages to the skills section of your resume: List the 
-                programming languages you know, one line for one language, if you know just 
-                a couple of languages.
-            </p>
-            <h2>The Importance of Embracing New Technology</h2>
-            <p class="UCBody">
-                As developments over the past few years have shown, we are in a time of 
-                unprecedented technological growth which shows no signs of slowing down. 
-                This has caused upset and disruption on a huge scale as the impact of new, 
-                cutting-edge technology is beginning to be seen now in every industry. As 
-                with any technological revolution, in order to avoid being made obsolete, 
-                existing companies will need to ensure they take advantage of these new 
-                opportunities to improve their business, products and services. If they 
-                don’t, newer and more consumer friendly options will be chosen by the customer.
-                In this series of blogs, we will examine the impact that the introduction 
-                of a new technology has and the changes that are occurring with the arrival 
-                of blockchain and other disruptive technologies. As part of this investigation, 
-                the importance and the benefits of implementing new technology solutions will be 
-                discussed, along with the dangers of ignoring them. As well as this, the 
-                articles will look at a previous example of a disruptive new technology 
-                — the internet — and how it changed industries, along with the possible 
-                lessons that can be learned and applied to this new technological revolution.
-                Additionally, some of the new technologies, and how industries can best prepare 
-                to adapt to their upcoming impact, will be discussed. Along the way, we’ll also 
-                explain how Blockpass fits into all of this.
-                Find the second part of the blog — The Importance of Embracing New Technology. 
-                Part Two: 
-                The Benefits and Dangers of Innovation, here.
-                What is technological transformation and why is it important?
-                “It is not the strongest of the species that survives, nor the most intelligent that survives. It is the one that is the most adaptable to change” — Charles Darwin (1809–1882)
-                Technological transformation, also referred to recently as digital transformation, has been a hot topic in recent years, with many businesses seeking to implement new technology to gain an edge on their competition. In essence, technological transformation is simply the process of developing a company through the application of a new technology in order to provide better products or services, or to achieve savings through reducing costs, reducing time or otherwise making processes more efficient.
-                By leveraging new technology, especially when coming to it ahead of the curve, there are two highly desirable ways in which a company may see beneficial results.
-            </p>
+            <h1>System Development
+                <br>
+                <button class="bbtnShowText" onclick="SystemDevelopmentMessage()">Show Text</button>
+            </h1>            
+            <p class="UCBody_1"></p>
+
+            <h2>Programing Languages
+                <br>
+                <button class="bbtnShowText" onclick="ProgramingLanguagesMessage()">Show Text</button>
+            </h2>
+            <p class="UCBody_2"></p>
+
+            <h2>The Importance of Embracing New Technology
+                <br>
+                <button class="bbtnShowText" onclick="TechnologyImportanceMessage()">Show Text</button>
+            </h2>
+            <p class="UCBody_3"></p>            
             <br>
             <br>            
         </div>       
@@ -117,6 +87,7 @@
                     <th><a class="Footer">About Us</a></th>
                 </table>                                       
             </nav>            
-        </footer> 
+        </footer>         
     </body>
+    <script type="text/javascript" src="js/WebPageJs.js"></script>
 </html>

@@ -15,7 +15,13 @@ a:hover
     animation: ColorTitle 3s infinite;
 }
 
-/*KeyFrames*/
+.bbtnShowText:hover
+{
+    background-color: orangered;
+    color: black;
+}
+
+/*#region KeyFrames*/
 @keyframes ColorTitle 
 {        
     0% { 
@@ -75,4 +81,4 @@ a:hover
     }    
 }
 
-/*#end region Header */
+/*#endregion KeyFrames */

@@ -1,0 +1,78 @@
+/*General*/
+#TituloLogo
+{
+    animation: ColorTitle 5s infinite;
+}
+
+#TTink
+{
+    animation: ColorTitle 5s infinite;
+}
+
+/*Hover*/
+a:hover
+{
+    animation: ColorTitle 3s infinite;
+}
+
+/*KeyFrames*/
+@keyframes ColorTitle 
+{        
+    0% { 
+        background: -webkit-linear-gradient(#000000, #ffffff); 
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    10% { 
+        background: -webkit-linear-gradient(#725151, #f3dcde); 
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    20% { 
+        background: -webkit-linear-gradient(#915858, #f3bcc0); 
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    30% { 
+        background: -webkit-linear-gradient(#9e5353, #f3afb4); 
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    40% { 
+        background: -webkit-linear-gradient(#af4f62, #ee969c); 
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    50% { 
+        background: -webkit-linear-gradient(#c54c4c, #f18484); 
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    60% { 
+        background: -webkit-linear-gradient(#b33f3f, #fa7676); 
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    70% { 
+        background: -webkit-linear-gradient(#7a2f25, #f55757); 
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    80% { 
+        background: -webkit-linear-gradient(#611928, #f33c3c); 
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    90% { 
+        background: -webkit-linear-gradient(#6a3131, #ec2525); 
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    100% { 
+        background: -webkit-linear-gradient(#5c2222, #cc1818); 
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }    
+}
+
+/*#end region Header */

@@ -2,40 +2,60 @@
 <html>
     <head>
         <title>Demonstration Page</title>
-        <link rel="stylesheet" href="WebPageStyle.css"> 
+        <link rel="stylesheet" href="css/WebPageStyle.css"> 
+        <link rel="stylesheet" href="css/UserInteraction/WebPageUI.css">
+        <script src="js/WebPageJs.js"></script>
     </head>
-    <body>
+    <body>   
         <div>
             <nav id="BarraNavegacao">
-                <img id="Logo" src="Logo.png" alt="Logo">
+                <img id="Logo" src="images/logo.png" alt="Logo">
                 <table id="CompanyName">
                     <tr>
-                        <th><label id="TituloLogo">Company</label></th>
-                    </tr>
+                        <th><label id="TituloLogo">Company</label></th>                        
+                    </tr>                    
                     <tr>
-                        <td><label id="TituloLogo">Name</label></td>
+                        <th><label id="TituloLogo">Name</label></th>
                     </tr>
                 </table>                            
                 <table id="TabelaLinks">
-                    <th><a>Initial Page</a></th>
-                    <th><a>Resources</a></th>
-                    <th><a>Contact</a></th>
-                    <th><a>About Us</a></th>
+                    <th><a class="EditableLink">Initial Page</a></th>
+                    <th><a class="EditableLink">Resources</a></th>
+                    <th><a class="EditableLink">Contact</a></th>
+                    <th><a class="EditableLink">About Us</a></th>
                 </table>                     
             </nav>            
-        </div>                         
-        <div id="GrupoTexto"> 
-            <table id="TabelaCorpo">                
+        </div>              
+        <div id="GrupoTexto">             
+            <table id="TabelaCorpo">  
+                <th>
+                    <td id="TTLinks">Some of my projects</td>
+                </th>        
                 <tr>
-                    <th>C#</th>
-                    <th>HTML</th>
-                    <th>CSS</th>
+                    <tr>
+                        <th>C#</th>
+                        <th>C++</th>
+                        <th>HTML</th>                        
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="https://github.com/AaronCrvl?tab=repositories&q=&type=&language=c%23&sort=">
+                                <img src="images/click.png" alt="View C# Codes" width="50px" height="50px">
+                            </a>
+                        </td>
+                        <td>
+                            <a href="https://github.com/AaronCrvl?tab=repositories&q=&type=&language=c%2B%2B&sort=">
+                                <img src="images/click.png" alt="View C++ Codes" width="50px" height="50px">
+                            </a>
+                        </td>
+                        <td>
+                            <a href="https://github.com/AaronCrvl?tab=repositories&q=&type=&language=html&sort=">
+                            <img src="images/click.png" alt="View HTML Codes" width="50px" height="50px">
+                        </a>
+                        </td>
+                    </tr>   
                 </tr>
-                <tr>
-                    <td>GitHub<a href=""></a></td>
-                    <td>GitHub<a href=""></a></td>
-                    <td>GitHub<a href=""></a></td>
-                </tr>                             
+                                          
             </table>                                      
             <h1>System Development</h1>
             <p class="UCBody"> 
@@ -86,7 +106,7 @@
         </div>       
         <footer>
             <nav id="BarraNavegacaoFooter">
-                <img id="LogoFooter" src="Logo.png" alt="Logo">  
+                <img id="LogoFooter" src="images/logo.png" alt="Logo">  
                 <table id="TabelaLinksFooter"></table>
                     <th>
                         <label id="TituloLogoFooter">© Copyright 2021</label>
